@@ -66,7 +66,7 @@
 
 AffixIO provides a platform to verify records, eligibility, and agent permissions. It offers tools for bound proof, identity verification, and compliance checks, with developer documentation, SDKs, and machine‑readable entry points. The service supports AI agents, free trials, and integrates via MCP tools to enable secure, auditable verification workflows for businesses.
 
-**Areas:** Company · Verification · AI · Compliance · SDK
+**Areas:** Company · Verification · Artificial Intelligence · Compliance · SDK
 
 ## AffixIO on APIs.io
 
@@ -118,11 +118,17 @@ Everything profiled for AffixIO is published on APIs.io rather than in this repo
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [affix-io-com-mcp.yml](https://apis.io/servers/affix-io-com/affix-io-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Affix Io Com Agentic Access](https://apis.io/agentic-access/affix-io-com/affix-io-com-agentic-access/)
+- [AffixIO Agentic Access](https://apis.io/agentic-access/affix-io-com/affix-io-com-agentic-access/)
 
 #### JSON-LD (1)
 
@@ -140,16 +146,16 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Affix Io Com Authentication](https://apis.io/security/affix-io-com/affix-io-com-authentication/)
-- [Affix Io Com Domain Security](https://apis.io/security/affix-io-com/affix-io-com-domain-security/)
-- [Affix Io Com Trust Center](https://apis.io/security/affix-io-com/affix-io-com-trust-center/)
-- [Affix Io Com Vulnerability Disclosure](https://apis.io/security/affix-io-com/affix-io-com-vulnerability-disclosure/)
+- [AffixIO Authentication](https://apis.io/security/affix-io-com/affix-io-com-authentication/)
+- [AffixIO Domain Security](https://apis.io/security/affix-io-com/affix-io-com-domain-security/)
+- [AffixIO Trust Center](https://apis.io/security/affix-io-com/affix-io-com-trust-center/)
+- [AffixIO Vulnerability Disclosure](https://apis.io/security/affix-io-com/affix-io-com-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Affix Io Com Plans Pricing](https://apis.io/plans/affix-io-com/affix-io-com-plans-pricing/)
+- [AffixIO Plans Pricing](https://apis.io/plans/affix-io-com/affix-io-com-plans-pricing/)
 
 ## Where to find this API
 
@@ -166,23 +172,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 59.6** — strong · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 54.7** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 70.0 |
-| Contract quality | 52.6 |
-| Contract governance | 79.1 |
-| Operational transparency | 34.2 |
-| Developer ergonomics | 73.1 |
-| Access clarity | 46.8 |
+| Discoverability | 86.7 |
+| Contract quality | 55.6 |
+| Contract governance | 22.0 |
+| Operational transparency | 31.0 |
+| Developer ergonomics | 68.5 |
+| Access clarity | 40.4 |
 
-**Agent readiness 65.3** — agent-native
+**Agent readiness 60.3** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
@@ -191,8 +197,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | partial |
 | Rate Limit Signal | — |
 | Event Surface Described | unknown |
-| Agent Skills | unknown |
-| Well Known Catalog | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | flavored (partial credit) |
 | Dry Run Mode | — |
@@ -202,6 +208,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
 
